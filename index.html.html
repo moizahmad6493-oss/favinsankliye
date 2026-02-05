@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Maham</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffd6e8, #ff9ecf, #ff5fa2);
+  color: #8b0038;
+  overflow-x: hidden;
+}
+
+/* ---------- LANDING SCREEN ---------- */
+#landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#landing h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff5fa2;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* NAHINN */
+#noBtn {
+  background: white;
+  color: #ff5fa2;
+  border: 2px solid #ff5fa2;
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* ---------- MESSAGE SECTION ---------- */
+#messageSection {
+  display: none;
+  padding: 40px 20px 100px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+/* SNAKE BORDER */
+.message-box {
+  position: relative;
+  padding: 28px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  line-height: 1.7;
+}
+
+.message-box::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 22px;
+  background: linear-gradient(
+    270deg,
+    #ff5fa2,
+    #ff9ecf,
+    #ffffff,
+    #ff5fa2
+  );
+  background-size: 600% 600%;
+  animation: snake 6s linear infinite;
+  z-index: -1;
+}
+
+@keyframes snake {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 600% 50%; }
+}
+
+/* HEARTS */
+.heart {
+  position: fixed;
+  bottom: -30px;
+  font-size: 20px;
+  color: rgba(255, 90, 160, 0.7);
+  animation: floatUp linear infinite;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-130vh); opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- LANDING -->
+<div id="landing">
+  <h1>Will you be my Valentine? 💗</h1>
+  <button id="yesBtn">G ZARUR</button>
+</div>
+
+<button id="noBtn">NAHINN</button>
+
+<!-- MESSAGE -->
+<div id="messageSection">
+  <div class="message-box">
+    WOAHHHH MUJE UMEED NAHI THI K ME LIFE ME ITNI JALDI KISI K LYE YE LIKHUN GA BUT HERE WE ARE JANAB. MENE SERIOUSLY YEHI SOCHA THA K ABH TO BOHOT TIME HA , ARAM SE JAB 23-24 SAAL KA HUNN GA TO TAB YE SCENE WAGERA DEKHEN GE BUT QISMAT ME TO KOI OR BATT THI , THANKS TO WALEED K USS NE KISI SE BATT SHURU KI OR USS K REFRENCE SE APP AII , MAHAM WESE KEHNA PARNA K APP KA BOHOT CREDIT HA K AP NE SHURU ME MUJE FOLLOW KYA HEHE.😜. WESE MUJE APP KI EYES BOHOT PYARI LAGTI HAIN SERIOUSLY YE SHARP EYES MERE DIL PE NA BASS LAG GYI HA THAAAAAAAAAA KRKE , OR ISPE APP NE YE NHI KEHNA K "" G BEAUTY TOU THORY TIME K LIYE HOTI HA , ZYADA MATTER NAHI KRTI BEAUTY "" PATA HA G MUJE YE MOHTARMA PATA HA , I ADORE YOU , I ADORE YOUR EYES , I ADORE YOUR BEAUTIFUL FACE , I ADORE YOUR PRESENCE , I ADORE YOU IN EVERY HUMANLY POSSIBLE WAY, APP MANY YA NA MANYY ISS CHEEZ KO , MERE SE ZYADA AAP KO KOI NAHI DEKHTA HOGA ME SHART LAGA KR KEH SKTA HUN YE BAAT , G BAAT TO YE KHUDGARZI KI HA PAR AESA HI NA ISS ME KOI JHOOT WAGERA NAHII HA , PATA NAHI APP YE YAHAN TAK PARHEN GII B K NAHI BUT IT IS WHAT IT IS , MUJE PATA KYA LAGTA HA K ME KABHI KABHI BOHOT SHOKHA HOJATA HUN APP K SATH JOKYY MUJE NAHI HONA CHAHIYE ITNA B KIUN K APP NE B KEHNA HA K KYA BAATEIEN KRTA HA YE , HEHE LOL , NAHI , NAHI ME HUN BOHT SHOKHA KYA KRLOGEE AP😜🤷‍♂️, G METOO AISA HI HUN G , JO BAS MERA HA VO MERA HA , ORRR MERI HAR MUMKIN KOSHISH HOGI K AAP MERE SE KABI DUUR MAT JAO , MUJE HAR TIME APNY PASS RAKHO OR AAP MERE PASS RHO HEHEHEHEHEHE , WELL AGAR YAHAN TAK PARH LYA AP NE TO BARII BATT HA G WESE. HMMMMM OR SAB KESA GHAR ME , AGY PECHYY SABB THEEK , SAB BHARIYA? MERE KHAYAL SE SHAYAD APP KO YE PASAND AYE (UMEED HA) KHER BATEIN TO BOHOT HA KRNY KO TO BUT VO PHIR KABI KREN GY , JAB AP KA HATH MERE HATH ME HOGA OR HUM KISI WALK PE JARHY HONGE , KISI LONG DRIVE PE JARHY HONGE , ME APP KO GYM LEKR JARHA HUN GA HEHEHEE, INSHALLAH. OYEE HANNN IKK BATT TO ME KEHNA HI BHOOL GYA K MERE SAPNO ME ZARA ZYADA AYA KREN JANAB THORI DEER K LIYE ATI HAIN APP OR PHIR CHALI JATI HAIN YE KYA BATT HUI BHALA , MENE PHALIA AJANA HA DEKH LENA AGAR KAHIN MUJE LAGA K APP MERE SAPNE ME KAMM TIME K LIYE AII HA😠 , BASS BOHOT HA G ASAL ME NA MERA RIGHT HAND THAK RHA HA KEYBOARD PE TYPE KRKE.
+  </div>
+</div>
+
+<script>
+const noBtn = document.getElementById("noBtn");
+const yesBtn = document.getElementById("yesBtn");
+const landing = document.getElementById("landing");
+const message = document.getElementById("messageSection");
+
+/* NAHINN MOVEMENT */
+function moveButton() {
+  const btnW = noBtn.offsetWidth;
+  const btnH = noBtn.offsetHeight;
+  const padding = 10;
+
+  const maxX = window.innerWidth - btnW - padding;
+  const maxY = window.innerHeight - btnH - padding;
+
+  noBtn.style.left = Math.random() * maxX + "px";
+  noBtn.style.top = Math.random() * maxY + "px";
+}
+
+noBtn.addEventListener("mouseenter", moveButton);
+noBtn.addEventListener("click", moveButton);
+noBtn.addEventListener("touchstart", moveButton);
+
+/* YES CLICK */
+yesBtn.addEventListener("click", () => {
+  landing.style.display = "none";
+  noBtn.style.display = "none";
+  message.style.display = "block";
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+/* HEARTS */
+setInterval(() => {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = "❤";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.animationDuration = 6 + Math.random() * 4 + "s";
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 12000);
+}, 600);
+</script>
+
+</body>
+</html>
